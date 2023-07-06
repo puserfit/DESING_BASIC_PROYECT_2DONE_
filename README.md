@@ -1,2 +1,25 @@
-# DESING_BASIC_PROYECT_2DONE_
-ES EL Proyecto 2d de la clase de desarollo de videojuegos del nivel basico financiado por la agencia ATENEA_todos a la u
+# (nombre_del_juego)
+Bla bla bla bla bla bla bla (descripción del proyecto)
+### Tecnologías:  
+- Unity GameEngine
+- C#
+### Paquetes de Assets
+Estos paquetes de Assets son utilizados en el juego y pueden o no estar incorporados en el repositorio[^1].
+- [Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
+
+### Documento de Diseño
+[VDD](/VDD/README.md)  
+
+---
+### Tareas Pendientes (ToDo)
+- [x] UI Wireframes
+- [ ] Establecer el repositorio compartido
+- [ ] Diseño de la primera escena
+- [ ] Diseño de la segunda escena
+- [ ] El resto de tareas del documento de diseño
+---
+### Notas
+_¿Algunas anotaciones extras?_  
+
+
+[^1]: Los paquetes de Assets disponibles en el **Asset Store** pueden incluirse en el archivo _.gitignore_ para ahorrar espacio en el repositorio. En caso de ser así, éstos paquetes de Assets deben ser descargados localmente.
