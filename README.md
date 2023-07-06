@@ -1,5 +1,8 @@
+# (EL ENIGMA DE LA CUMBRE)
+
 #DESING_BASIC_PROYECT_2DONE_
-Este proyecto es utilizado para construir los ejecutables de la clase para el curso de DISEÑO DE VIDEOJUEGOS - Nivel basico, enmarcado en el proyecto TOdos a la U, financiado por la agencia ATENEA.
+
+Este proyecto es utilizado para construir los ejecutables de la clase para el curso de DISEÑO DE VIDEOJUEGOS - Nivel basico, enmarcado en el proyecto Todos a la U, financiado por la agencia ATENEA.
 
 ### Tecnologías:  
 - Unity GameEngine
