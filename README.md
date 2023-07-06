@@ -1,5 +1,6 @@
-# (nombre_del_juego)
-Bla bla bla bla bla bla bla (descripción del proyecto)
+#DESING_BASIC_PROYECT_2DONE_
+Este proyecto es utilizado para construir los ejecutables de la clase para el curso de DISEÑO DE VIDEOJUEGOS - Nivel basico, enmarcado en el proyecto TOdos a la U, financiado por la agencia ATENEA.
+
 ### Tecnologías:  
 - Unity GameEngine
 - C#
