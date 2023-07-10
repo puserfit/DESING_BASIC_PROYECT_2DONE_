@@ -9,8 +9,7 @@ Este proyecto es utilizado para construir los ejecutables de la clase para el cu
 - C#
 ### Paquetes de Assets
 Estos paquetes de Assets son utilizados en el juego y pueden o no estar incorporados en el repositorio[^1].
-- [Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
-
+- [Sunny Land](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349)
 ### Documento de Diseño
 [VDD](/VDD/README.md)  
 
