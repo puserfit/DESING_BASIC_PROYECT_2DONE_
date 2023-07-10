@@ -1,10 +1,12 @@
 # Videogame Design Document
 ## Sección 1 - Generalidades
-1. Título:  
-_título del juego_  
+1. Título:  Documento de VideoJuegos
+
+_título del juego_El enigma de la Cumbre
+  
 
 2. Género del juego:  
-_género del juego_
+_género del juego_Juego de Plataforma de un solo jugador.
 
 3. Perspectiva:  
 Tercera persona 2D  
