@@ -145,7 +145,7 @@ _describir las armas, gemas, monedas, etc. que se pueden recoger/obtener/adquiri
 ![alt text][wireframe]  
 ![alt text][Level1]  
 <!-- Referencias para las imagenes -->
-[wireframe]: /Assets/Readme_Img/wireframes_UI.jpg "Wireframe de las UI" 
+[wireframe]: /Assets/Readme_Img/Wireframes_plataformer-Grupo12.jpg "Wireframe de las UI" 
 [Level1]: /Assets/Readme_Img/Level1.png "Esquema para el nivel 1"  
 
    2.1 Main Menu Interface:  
