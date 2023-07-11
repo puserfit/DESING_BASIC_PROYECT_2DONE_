@@ -146,7 +146,16 @@ _describir las armas, gemas, monedas, etc. que se pueden recoger/obtener/adquiri
 ![alt text][Level1]  
 <!-- Referencias para las imagenes -->
 [wireframe]: /Assets/Readme_Img/Wireframes_plataformer-Grupo12.jpg "Wireframe de las UI" 
-[Level1]: /Assets/Readme_Img/Level1.png "Esquema para el nivel 1"  
+[Level1]: /Assets/Readme_Img/Captura.png "Esquema UI Splash"  
+[Level1]: /Assets/Readme_Img/Captura1.png "Esquema UI Menu Principal"  
+[Level1]: /Assets/Readme_Img/Captura2.png "Esquema UI Load game"  
+[Level1]: /Assets/Readme_Img/Captura3.png "Esquema UI Loading"  
+[Level1]: /Assets/Readme_Img/Captura4.png "Esquema UI Pausa"  
+[Level1]: /Assets/Readme_Img/Captura7.png "Esquema UI Options"  
+[Level1]: /Assets/Readme_Img/Captura8.png "Esquema UI Help"  
+[Level1]: /Assets/Readme_Img/Captura10.png "Esquema UI About Us"  
+[Level1]: /Assets/Readme_Img/Captura11.png "Esquema UI Game Over"  
+
 
    2.1 Main Menu Interface:  
        _describir las opciones del manú ppal_  
