@@ -1,0 +1,12 @@
+UI DEL VIDEO JUEGO "El Enigma de la Cumbre"
+Total de UI: 9
+
+-Escena Splash
+-Escena Menu
+-Escena Loading
+-Escena primer nivel---Aqui esta la UI de Pausa y el panel de las vidas, poderes, recolectables y puntaje
+-Escena Opciones
+-Escena Help
+-Escena About Us
+-Escena Load Game
+-Escena Game Over
