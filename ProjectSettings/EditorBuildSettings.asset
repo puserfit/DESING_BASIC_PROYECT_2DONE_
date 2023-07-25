@@ -6,30 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EscenaSplah.unity
+    path: Assets/Interfaces/EscenaSplah.unity
     guid: d48e1c2e05ffc8641876562493e0529d
   - enabled: 1
-    path: Assets/Scenes/Escena menu.unity
+    path: Assets/Interfaces/Escena menu.unity
     guid: b7e5bcc1b49f3544b9d7a50089a1ed59
   - enabled: 1
-    path: Assets/Scenes/EscenaLoading.unity
+    path: Assets/Interfaces/EscenaLoading.unity
     guid: c9db6473e71c7f64c995d13554ded6d1
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Interfaces/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/EscenaOpciones.unity
+    path: Assets/Interfaces/EscenaOpciones.unity
     guid: d2413b6476423dc4aba9dda151223576
   - enabled: 1
-    path: Assets/Scenes/EscenaPantaAyuda.unity
+    path: Assets/Interfaces/EscenaPantaAyuda.unity
     guid: d1955ecfec1f4e64d8c25d7c835979ba
   - enabled: 1
-    path: Assets/Scenes/EscenaAboutUs.unity
+    path: Assets/Interfaces/EscenaAboutUs.unity
     guid: 1a69cc238bdee9e4a8d71cbc53f41c1a
   - enabled: 1
-    path: Assets/Scenes/EscenaGameOver.unity
+    path: Assets/Interfaces/EscenaGameOver.unity
     guid: 91d2d9ab2bdb7fc44a4985ab5f217ed6
   - enabled: 1
-    path: Assets/Scenes/EscenaLoadGame.unity
+    path: Assets/Interfaces/EscenaLoadGame.unity
     guid: e35b4edb2dfc3f94ebf5ba074b228237
   m_configObjects: {}
