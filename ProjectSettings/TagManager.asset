@@ -11,9 +11,9 @@ TagManager:
   - Background
   - Water
   - UI
+  - Terreno
   - Nubes
   - Nubes2
-  - Terreno
   - Trampas
   - 
   - 
@@ -41,8 +41,14 @@ TagManager:
   - name: Background
     uniqueID: 280966423
     locked: 0
+  - name: Plataformas
+    uniqueID: 3273543855
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 4239770557
     locked: 0
   - name: 'nubes '
     uniqueID: 2277573187
@@ -50,17 +56,11 @@ TagManager:
   - name: Nubes 2
     uniqueID: 1140494947
     locked: 0
-  - name: Plataformas
-    uniqueID: 3273543855
-    locked: 0
   - name: Pared
     uniqueID: 3612135507
     locked: 0
   - name: 'Trampas '
     uniqueID: 2626020867
-    locked: 0
-  - name: Ui
-    uniqueID: 4239770557
     locked: 0
   - name: ButtonPusa
     uniqueID: 2596442239
