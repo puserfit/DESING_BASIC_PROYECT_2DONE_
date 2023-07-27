@@ -14,7 +14,7 @@ public class CharacterController : MonoBehaviour
 	float velocidad = 4f;    //Velocidad de desplazamiento del personaje
 	float fuerzaSalto = 35;     //x veces la masa del personaje (2 codigo) //la fuerzaSalto es 50 su propio peso (el peso del personaje)
 	
-	float fuerzaDesplazamiento = 130;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)
+	float fuerzaDesplazamiento = 400;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)
 	
 	bool enElPiso = true;     //tiene que tocar el piso 
 	
