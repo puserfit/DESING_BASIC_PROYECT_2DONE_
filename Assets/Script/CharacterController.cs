@@ -7,29 +7,29 @@ public class CharacterController : MonoBehaviour
     // Valores
 	
 	
-	float nivelPiso = -0.61f;  //Este valor representa el nivel del piso para el personaje
-	float nivelDelTecho = 5.41f;       //Este valor es el Y...comienza en el aire..Gravedad: x:0 y:9.85
+	//float nivelPiso = -0.61f;  //Este valor representa el nivel del piso para el personaje
+	float nivelDelTecho = 6.8f;       //Este valor es el Y...comienza en el aire..Gravedad: x:0 y:9.85     5.41f
 	float limiteR = 11.68f;    //Este valor representa el limite Derecho de la camara para el personaje
-	float limiteL = 2.05f;    //Este valor representa el limite Izquierdo de la camara para el personaje
+	float limiteL = -9f;    //Este valor representa el limite Izquierdo de la camara para el personaje    2.05f
 	float velocidad = 4f;    //Velocidad de desplazamiento del personaje
 	float fuerzaSalto = 35;     //x veces la masa del personaje (2 codigo) //la fuerzaSalto es 50 su propio peso (el peso del personaje)
 	
-	float fuerzaDesplazamiento = 400;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)
+	float fuerzaDesplazamiento = 330;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)
 	
 	bool enElPiso = true;     //tiene que tocar el piso 
 	
 	
     void Start()
     {
-        //Personaje siempre inicia en la posicion (x -8.92--abajo,y -0.57---arriba)
-		gameObject.transform.position = new Vector3(10.15f,nivelDelTecho,0);
+        //Personaje siempre inicia en la posicion (x -8.92--abajo,y -0.57---arriba)         
+		gameObject.transform.position = new Vector3(-9f,nivelDelTecho,0);                         //10.15f
 		Debug.Log("INIT");      //lo que aparece en las "" es lo que se va a decir en la consola.
     }
 
     
     void Update()
     {
-		if(Input.GetKey("right")&& gameObject.transform.position.x < limiteR ){
+		if(Input.GetKey("right")&& enElPiso){
 			Debug.Log("RIGHT"); 
 			gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(fuerzaDesplazamiento,0));
 			
