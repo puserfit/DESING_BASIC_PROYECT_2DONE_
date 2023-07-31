@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Obstaculo
+  - Trampa
+  - FallDetector
+  - Colectable1
+  - Colectable2
+  - Colectable3
+  - Power1
+  - Power2
+  - Power3
   layers:
   - Default
   - TransparentFX
@@ -13,10 +22,10 @@ TagManager:
   - Water
   - UI
   - Terreno
-  - Nubes
+  - nubes
   - Nubes2
-  - Trampas
-  - 
+  - Nubes3
+  - Wall
   - 
   - 
   - 
@@ -42,33 +51,24 @@ TagManager:
   - name: Background
     uniqueID: 280966423
     locked: 0
-  - name: 'nubes '
-    uniqueID: 2277573187
-    locked: 0
-  - name: Nubes 2
-    uniqueID: 1140494947
-    locked: 0
-  - name: Plataformas
+  - name: nubes
     uniqueID: 3273543855
     locked: 0
-  - name: Escalera
+  - name: Nubes2
     uniqueID: 1144690215
+    locked: 0
+  - name: Nubes3
+    uniqueID: 1975647435
+    locked: 0
+  - name: Pared
+    uniqueID: 3612135507
+    locked: 0
+  - name: Terreno
+    uniqueID: 2277573187
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: UI
-    uniqueID: 4239770557
-    locked: 0
-  - name: Pared
-    uniqueID: 3612135507
-    locked: 0
-  - name: 'Trampas '
-    uniqueID: 2626020867
-    locked: 0
-  - name: ButtonPusa
-    uniqueID: 2596442239
-    locked: 0
-  - name: ButtonContinuar
-    uniqueID: 3994934307
+    uniqueID: 1140494947
     locked: 0
