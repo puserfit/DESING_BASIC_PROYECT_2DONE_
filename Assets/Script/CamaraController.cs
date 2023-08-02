@@ -8,7 +8,7 @@ public class CamaraController : MonoBehaviour
 	
     void Update()
     {
-        transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
+	transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
 		
     }
 }
