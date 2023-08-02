@@ -8,9 +8,9 @@ public class CharacterController : MonoBehaviour
 	
 	
 	//float nivelPiso = -0.61f;  //Este valor representa el nivel del piso para el personaje
-	float nivelDelTecho = 6.8f;       //Este valor es el Y...comienza en el aire..Gravedad: x:0 y:9.85     nivel 2: 6.8f /   7.36f
+	float nivelDelTecho = 7.15f;       //Este valor es el Y...comienza en el aire..Gravedad: x:0 y:9.85     nivel 2: 6.8f /   7.36f
 	float limiteR = 11.68f;    //Este valor representa el limite Derecho de la camara para el personaje
-	float limiteL = -9f;    //Este valor representa el limite Izquierdo de la camara para el personaje    nivel 2:-9f /  185.04f
+	float limiteL = -9.07f;    //Este valor representa el limite Izquierdo de la camara para el personaje    nivel 2:-9f /  185.04f
 	float velocidad = 4f;    //Velocidad de desplazamiento del personaje  4f
 	float fuerzaSalto = 95;     //x veces la masa del personaje (2 codigo) //la fuerzaSalto es 50 su propio peso (el peso del personaje)  50-70-60-90
 	
@@ -22,7 +22,7 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         //Personaje siempre inicia en la posicion (x -8.92--abajo,y -0.57---arriba)         
-		gameObject.transform.position = new Vector3(-9f,nivelDelTecho,0);                       //nivel2:-9f  //10.15f                     //(-9f,nivelDelTecho,0)  185.04f
+		gameObject.transform.position = new Vector3(-8.97f,nivelDelTecho,0);                       //nivel2:-9f  //10.15f                     //(-9f,nivelDelTecho,0)  185.04f
 		Debug.Log("INIT");      //lo que aparece en las "" es lo que se va a decir en la consola.
     }
 
