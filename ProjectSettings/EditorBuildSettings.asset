@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Interfaces/EscenaLoading.unity
     guid: c9db6473e71c7f64c995d13554ded6d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Interfaces/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Interfaces/EscenaLoadGame.unity
     guid: e35b4edb2dfc3f94ebf5ba074b228237
+  - enabled: 1
+    path: Assets/Scenes/NivelTres.unity
+    guid: 9fcdb40b4b0e5174d8571861d3164a80
   m_configObjects: {}
