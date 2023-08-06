@@ -19,6 +19,9 @@ public class CharacterController : MonoBehaviour
 	
 	bool enElPiso = true;     //tiene que tocar el piso 
 	
+	//Sonidos
+	[SerializeField] private AudioSource salto_SFX;        //Sonido Salto
+	
 	
     void Start()
     {

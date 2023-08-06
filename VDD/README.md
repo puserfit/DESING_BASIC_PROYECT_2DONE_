@@ -83,41 +83,42 @@ en marionetas que siguen las órdenes de Umbra.
 Umbra está feliz. Por fin podrá hacer sus planes realidad.
 
 
-
-
-
 4. Desarrollo de la historia:  
 El jugador ganará al completar todos los 3 niveles + los niveles ocultos en cada nivel y derrotar al villano final.El diseño incluirá exploración y recolección de frutas.
 
 ## Seccción 3 - Juego
-#1. Objectivo Principal:
-- Guiar al personaje principal a traves de diferentes niveles para recolectar fruta, poderes ocultos y paneles solares.A medida que avanza, enfrentara desafios y enemigos mientras explora el mundo del juego.
-#Objetivo
--Recolectar Fruta y Poderes Ocultos:El jugador debe recolectar frutas y poderes ocultos en cada nivel. Estos elementos pueden otorgar beneficios como puntos, habilidades especiales o mejoras del personaje. La recoleccion de estos elementos puede ser necesaria para avanzar en el juego y superar ciertos obstaculos.
--Descubir Niveles Ocultos: Los niveles ocultos ofrecen una experiencia adicional y desafiante para el jugador. El objetivo aqui es encontrar estos niveles secretos, recolectando paneles solares. Estos paneles pueden tener un proposito especial en la mecanica del juego o en la historia.
--Enfentar al Villano Final: El tercer nivel presenta el enfrentamiento con el villano. Aqui, el jugador debe utilizar las habilidades y poderes que ha recolectado para derrotar al villano y completar el juego.Este enfrentamiento puede incluir mecanicas de combare unicas y ser un desafio emocionantes.
--Ganar el Juego: Derrotar al villano final y completar el juego con exito.Al hacerlo, el jugador alcanza el logro maximo y puede experimentar la satisfaccion de haber superado todos los desafios y obstaculos del juego.
-#2. Reglas del juego:
-- Movimiento de Personaje: El personaje puede moverse hacia la izquierda y la derecha utilizando las teclas correspondientes. Puede salta usando la tecla space y el personaje no puede moverse fuera de los limites del nivel.
-- Recoleccion de Objetos: El personaje puede recolectar frutas y poderes ocultos al tocarlos. Recolectar frutas otorga puntos al jugador. Recolectar poderes ocultos puede otorgar habilidades especiales temporales.
-- Niveles Ocultos: Los niveles ocultos solo se puede estar si el jugador toca la copa azul la cual translada al personaje al nivel oculto.En los niveles ocultos el personaje puede recolectar paneles solares.
-- Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
-#3. Mecánica del juego:
-  - Movimientos del personaje: 
-     -Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos.
-	 -Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas. 
-	 -Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos.
-	 -Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales.
-  - Movimientos de los enemigos:
-     -Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos.
-     -Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas. 
-  - Obstáculos y trampas:
-     - Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas.
-	 -Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos.
-	 -Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño.
-	 -Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura.
-	 -Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles.
-	 -Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas. 
+1. Objectivo Principal:
+
+•Guiar al personaje principal a traves de diferentes niveles para recolectar fruta, poderes ocultos y paneles solares.A medida que avanza, enfrentara desafios y enemigos mientras explora el mundo del juego.
+
+Objetivo
+•Recolectar Fruta y Poderes Ocultos:El jugador debe recolectar frutas y poderes ocultos en cada nivel. Estos elementos pueden otorgar beneficios como puntos, habilidades especiales o mejoras del personaje. La recoleccion de estos elementos puede ser necesaria para avanzar en el juego y superar ciertos obstaculos.
+•Descubir Niveles Ocultos: Los niveles ocultos ofrecen una experiencia adicional y desafiante para el jugador. El objetivo aqui es encontrar estos niveles secretos, recolectando paneles solares. Estos paneles pueden tener un proposito especial en la mecanica del juego o en la historia.
+•Enfentar al Villano Final: El tercer nivel presenta el enfrentamiento con el villano. Aqui, el jugador debe utilizar las habilidades y poderes que ha recolectado para derrotar al villano y completar el juego.Este enfrentamiento puede incluir mecanicas de combare unicas y ser un desafio emocionantes.
+•Ganar el Juego: Derrotar al villano final y completar el juego con exito.Al hacerlo, el jugador alcanza el logro maximo y puede experimentar la satisfaccion de haber superado todos los desafios y obstaculos del juego.
+
+2. Reglas del juego:
+• Movimiento de Personaje: El personaje puede moverse hacia la izquierda y la derecha utilizando las teclas correspondientes. Puede salta usando la tecla space y el personaje no puede moverse fuera de los limites del nivel.
+• Recoleccion de Objetos: El personaje puede recolectar frutas y poderes ocultos al tocarlos. Recolectar frutas otorga puntos al jugador. Recolectar poderes ocultos puede otorgar habilidades especiales temporales.
+• Niveles Ocultos: Los niveles ocultos solo se puede estar si el jugador toca la copa azul la cual translada al personaje al nivel oculto.En los niveles ocultos el personaje puede recolectar paneles solares.
+• Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
+
+3. Mecánica del juego:
+   _Movimientos del personaje: 
+    _Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos.
+	_Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas. 
+	_Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos.
+	_Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales.
+   _Movimientos de los enemigos:
+    _Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos.
+    _Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas. 
+   _Obstáculos y trampas:
+    _Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas.
+	_Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos.
+	_Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño.
+	_Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura.
+	_Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles.
+	_Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas. 
 4. Completar con varios o todos de los siguientes (a necesidad)
 •Game Options: El juego ofrece varias opciones para personalizar la experiencia, como ajustes de volumen de sonido, configuracion de controles y preferencias visuales.
 • Game Levels: El juego esta estructurado en niveles progresivos, cada uno con su propio conjunto de desafios, obstaculos y objetivos. A medida que el jugador avanza, los niveles se vuelven mas dificiles y gratificantes.
@@ -145,24 +146,25 @@ El juego se desarrolla en la isla Kohana. El entorno abarca playas, bosques, un 
 
 3. Armas o elementos colectables: 
 En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejorar su progreso y habilidad.
-       -Frutas: Son de 3 tipos. Estas frutas otorgan puntos de vida adicionales y mejoran las estadisticas de los personajes. 
-       -Poderes: Son 3 tipos de poderes que son importantes para poder continuar en los diferentes niveles.
- 	   -Copa Transladora: Artefacto que permite a los jugadores ir de un nivel a otro. 
-	   -Copa Transladora Interna: Artefacto que permire a los jugadores ir al nivel Oculto que tiene cada nivel.
+      - Frutas: Son de 3 tipos. Estas frutas otorgan puntos de vida adicionales y mejoran las estadisticas de los personajes. 
+      - Poderes: Son 3 tipos de poderes que son importantes para poder continuar en los diferentes niveles.
+ 	  - Copa Transladora: Artefacto que permite a los jugadores ir de un nivel a otro. 
+	  - Copa Transladora Interna: Artefacto que permire a los jugadores ir al nivel Oculto que tiene cada nivel.
 
 
 ## Sección 5 – Game Play I/O Controls & UI Interfaces
 1. Game Play I/O Controls:
-• Movimientos del Personaje: 
-   -Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones.
-   -Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente.++++++++
-• Acciones Especiales
-   -Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto.
-   - Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente. 
-• Pausa
-   - Tecla Esc: Permite pausar el juego en cualquier momento. Al presionar la tecla Esc, el juego se detendra temporalmente y se mostrara el menu de pausa, donde el jugador puede acceder a opciones adicionales, como reiniciar el nivel o volver al menu principal.
+   _Movimientos del Personaje: 
+    _Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones.
+    _Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente.++++++++
+   _Acciones Especiales
+    _Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto.
+    _Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente. 
+   _Pausa
+    _Tecla Esc: Permite pausar el juego en cualquier momento. Al presionar la tecla Esc, el juego se detendra temporalmente y se mostrara el menu de pausa, donde el jugador puede acceder a opciones adicionales, como reiniciar el nivel o volver al menu principal.
 
-• Elementos de gamificación
+   _Elementos de gamificación
+   
 2. GUI Interfaces:
 
 ![alt text][wireframe]  
@@ -190,13 +192,12 @@ En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejor
 ## Sección 6 – Características Visuales y de Audio 
 El videojuego presenta una cuidadosa combinacion de caracteristicas visuales y de sonido que trabajan juntas para sumergir a los jugadores en la emocionante experiencia de la Isla Kohana.
 
--Caracteristicas Visuales
-     -Estilo Visual 2D: El juego se desarrolla en un entorno visual 2D detallado y colorido. Los fondos y escenarios estan diseñados para reflejar la diversidad de la Isla Kohana, desde paisajes naturales y frios hasta entornos mas oscuros en el laboratorio de Umbra.
-	 -Animaciones Detalladas: Los personajes, tanto los jugadores como los no jugadores, cuentan con animaciones fluidas y detalladas que reflejan sus personalidades y caracteristicas unicas. Los movimientos, saltos y ataques se representan de manera vivida y atractiva.
-	 -Transiciones entre Dimensiones: Cuando se cambia de un nivel a otro se puede distinguir colores y efectos visuales diferentes. Esto ayuda a distinguir claramente entre las distintas dimensiones del juego.
-	 -Diseño de Niveles Tematicos: Cada nivel presenta un diseño visual unico.Desde entornos naturales de la Isla Kohana, un mundo de nubes donde se encuentran plataformasy un mundo de hielo. Hasta las instalaciones sombrias del laboratorio de Umbra, los jugadores disfrutaran de una variedad visual cautivadora.
--Caracteristicas de Sonido
-     -Efectos de Sonido Detallados: El juego esta acompañado por efectos de sonido.Los efectos de sonido sumergen a los jugadores en el mundo del juego.
-     -Musica Ambiental:Desde melodias relajantes de la Isla Kohana hasta composiciones mas intensas durante los enfrentamientos con el villano final. 
-     -Efectos Especiales: Sonidos especiales acompañan a acciones destacadas, como saltos, cuando se toca la copa transladora y la copa transladora interna. Al igual que la recoleccion de frutas y activacion de poderes especiales.  
-## TODAS LAS OTRAS SECCIONES QUE PUEDAN SER NECESARIAS
+   _Caracteristicas Visuales
+    _Estilo Visual 2D: El juego se desarrolla en un entorno visual 2D detallado y colorido. Los fondos y escenarios estan diseñados para reflejar la diversidad de la Isla Kohana, desde paisajes naturales y frios hasta entornos mas oscuros en el laboratorio de Umbra.
+    _Animaciones Detalladas: Los personajes, tanto los jugadores como los no jugadores, cuentan con animaciones fluidas y detalladas que reflejan sus personalidades y caracteristicas unicas. Los movimientos, saltos y ataques se representan de manera vivida y atractiva.
+    _Transiciones entre Dimensiones: Cuando se cambia de un nivel a otro se puede distinguir colores y efectos visuales diferentes. Esto ayuda a distinguir claramente entre las distintas dimensiones del juego.
+    _Diseño de Niveles Tematicos: Cada nivel presenta un diseño visual unico.Desde entornos naturales de la Isla Kohana, un mundo de nubes donde se encuentran plataformasy un mundo de hielo. Hasta las instalaciones sombrias del laboratorio de Umbra, los jugadores disfrutaran de una variedad visual cautivadora.
+   _Caracteristicas de Sonido
+    _Efectos de Sonido Detallados: El juego esta acompañado por efectos de sonido.Los efectos de sonido sumergen a los jugadores en el mundo del juego.
+    _Musica Ambiental:Desde melodias relajantes de la Isla Kohana hasta composiciones mas intensas durante los enfrentamientos con el villano final. 
+    _Efectos Especiales: Sonidos especiales acompañan a acciones destacadas, como saltos, cuando se toca la copa transladora y la copa transladora interna. Al igual que la recoleccion de frutas y activacion de poderes especiales.  
