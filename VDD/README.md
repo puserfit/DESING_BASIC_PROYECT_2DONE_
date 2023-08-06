@@ -17,6 +17,7 @@ Tercera persona 2D
  
 5. Audiencia objetivo:
 - Edades 16-30
+- Fans de los juegos de plataforma nivel basico
 
 6. Idea central:  
 Sigue las aventuras de Gô y Issas,   habitantes de la isla Kohana. Mientras viajan a través de diferentes
@@ -24,20 +25,21 @@ dimensiones y atraviesan peligros insuperables y luchas contra criaturas mortale
 
 7. Objetivo del juego:  
 Los jugadores pasarán diferentes niveles, los cuales muestran distintos mundos en donde se encontrarán con 3 variedades de frutas las cuales 
-tiene que recoger a lo largo del nivel y habrá dos gemas ocultas que debe encontrar en estos; ya que estos aumentan los bonus.
+tiene que recoger a lo largo del nivel y habrá paneles en los niveles ocultos que debe encontrar; ya que estos dan una vida extra al personaje.
 El personaje interactúa con personajes que serán NPC que serán enemigos y al final se enfrentará con un enemigo además que va a adquirir
 diferentes habilidades que lo ayudaran para pasar los niveles.
 
 
 Opciones de juego Existen 2 personajes jugables en el juego. Se puede escoger con cual personaje jugar al comienzo del juego pero 
-sin poder alterar entre ellos durante el juego. Cada uno tiene habilidades únicas.El juego tiene solo un modo de dificultad.
+sin poder alterar entre ellos durante el juego.El juego tiene solo un modo de dificultad.
 
 8. Tópico del juego:  
-El jugador ganará al completar todos los 6 niveles y derrotar al villano final.El diseño incluirá exploración y recolección de frutas.
+Juego de Plataforma 
  
 
 9. Plataformas disponibles:
-Web, PC
+-Web
+-PC
 
 ## Sección 2 - Background & Flujo del juego
 1. Contexto:  
@@ -50,9 +52,9 @@ entre momentos de acción emocionante y momentos de exploración tranquila con t
 Isla Kohana
 
 Gô y Issas están viviendo una vida pacífica. Pasan el mayor de su tiempo viendo cómo se mueve el agua y sintiendo la brisa.
- Una mañana fría, mientras disfrutaban de la luz del sol, Issas se encuentra con dos criaturas muy extrañas. Una con boca
- gigante y dientes tremendamente grandes y otra de un color verde viscoso que se arrastra por el suelo. Issas sale corriendo
- en busca de su buen amigo Gô para contarle de la situación. Sus vidas no han sido las mismas desde entonces. 
+Una mañana fría, mientras disfrutaban de la luz del sol, Issas se encuentra con dos criaturas muy extrañas. Una con boca
+gigante y dientes tremendamente grandes y otra de un color verde viscoso que se arrastra por el suelo. Issas sale corriendo
+en busca de su buen amigo Gô para contarle de la situación. Sus vidas no han sido las mismas desde entonces. 
 
 Muy pronto Gô y Issas se dan cuenta que son la única esperanza de la isla Kohana. 
   
@@ -72,10 +74,10 @@ Estos experimentos han progresado rápidamente.
 
 Más tarde
 
-Los secuaces de Umbra tienen capturados en jaulas a algunas criaturas de la isla X. Los ojos en las jaulas tienen miedo y tratan de luchar 
+Los secuaces de Umbra tienen capturados en jaulas a algunas criaturas de la Isla Kohana. Los ojos en las jaulas tienen miedo y tratan de luchar 
 y abrir las jaulas, pero sus intentos son en vano. Los asistentes sacan a un capturado ya que él será el próximo experimento. 
 
-Algunas criaturas capturadas de la isla kohana se convierten en mutaciones. Otras son fuertes y no se convierten, pero sus ojos reaccionan y se convierten
+Algunas criaturas capturadas de la Isla Kohana se convierten en mutaciones. Otras son fuertes y no se convierten, pero sus ojos reaccionan y se convierten
 en marionetas que siguen las órdenes de Umbra.
 
 Umbra está feliz. Por fin podrá hacer sus planes realidad.
@@ -85,61 +87,82 @@ Umbra está feliz. Por fin podrá hacer sus planes realidad.
 
 
 4. Desarrollo de la historia:  
-_describir cómo se desarrolla la historia del juego a medida que le personaje avanza en el mismo_  
+El jugador ganará al completar todos los 3 niveles + los niveles ocultos en cada nivel y derrotar al villano final.El diseño incluirá exploración y recolección de frutas.
 
 ## Seccción 3 - Juego
-1. Objectivo(s):
-- objetivo 1
-- objetivo 2
-- etc
-2. Reglas del juego:
-- Regla 1 del juego
-- Regla 2 del juego
-- etc
-3. Mecánica del juego:
-  - Movimientos del personaje
-  - Movimientos de los enemigos
-  - Obstáculos y trampas
+#1. Objectivo Principal:
+- Guiar al personaje principal a traves de diferentes niveles para recolectar fruta, poderes ocultos y paneles solares.A medida que avanza, enfrentara desafios y enemigos mientras explora el mundo del juego.
+#Objetivo
+-Recolectar Fruta y Poderes Ocultos:El jugador debe recolectar frutas y poderes ocultos en cada nivel. Estos elementos pueden otorgar beneficios como puntos, habilidades especiales o mejoras del personaje. La recoleccion de estos elementos puede ser necesaria para avanzar en el juego y superar ciertos obstaculos.
+-Descubir Niveles Ocultos: Los niveles ocultos ofrecen una experiencia adicional y desafiante para el jugador. El objetivo aqui es encontrar estos niveles secretos, recolectando paneles solares. Estos paneles pueden tener un proposito especial en la mecanica del juego o en la historia.
+-Enfentar al Villano Final: El tercer nivel presenta el enfrentamiento con el villano. Aqui, el jugador debe utilizar las habilidades y poderes que ha recolectado para derrotar al villano y completar el juego.Este enfrentamiento puede incluir mecanicas de combare unicas y ser un desafio emocionantes.
+-Ganar el Juego: Derrotar al villano final y completar el juego con exito.Al hacerlo, el jugador alcanza el logro maximo y puede experimentar la satisfaccion de haber superado todos los desafios y obstaculos del juego.
+#2. Reglas del juego:
+- Movimiento de Personaje: El personaje puede moverse hacia la izquierda y la derecha utilizando las teclas correspondientes. Puede salta usando la tecla space y el personaje no puede moverse fuera de los limites del nivel.
+- Recoleccion de Objetos: El personaje puede recolectar frutas y poderes ocultos al tocarlos. Recolectar frutas otorga puntos al jugador. Recolectar poderes ocultos puede otorgar habilidades especiales temporales.
+- Niveles Ocultos: Los niveles ocultos solo se puede estar si el jugador toca la copa azul la cual translada al personaje al nivel oculto.En los niveles ocultos el personaje puede recolectar paneles solares.
+- Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
+#3. Mecánica del juego:
+  - Movimientos del personaje: 
+     -Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos.
+	 -Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas. 
+	 -Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos.
+	 -Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales.
+  - Movimientos de los enemigos:
+     -Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos.
+     -Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas. 
+  - Obstáculos y trampas:
+     - Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas.
+	 -Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos.
+	 -Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño.
+	 -Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura.
+	 -Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles.
+	 -Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas. 
 4. Completar con varios o todos de los siguientes (a necesidad)
-• Game options
-• Modes
-• Game levels
-• Player’s controls
-• Winning
-• Losing
-• End
-• Why is all this fun? - Elementos de gamificación
+•Game Options: El juego ofrece varias opciones para personalizar la experiencia, como ajustes de volumen de sonido, configuracion de controles y preferencias visuales.
+• Game Levels: El juego esta estructurado en niveles progresivos, cada uno con su propio conjunto de desafios, obstaculos y objetivos. A medida que el jugador avanza, los niveles se vuelven mas dificiles y gratificantes.
+•Player's Controls: Los controles intuitivos y responsivos permiten a los jugadores moverse, saltar y realizar acciones especiales con facilidad, lo que les brinda un mayor sentido de control sobre el personaje.
+•Winning: Los jugadores experimentan una sensacion de logro y satisfacion al superar obstaculos, completar niveles y alacanzar objetivos. Las recompensas visuales y auditivas refuerzan la sensacion de victoria.
+•Losing: La posibilidad de perder y enfrentar desafios dificiles agrega emocion y tension al juego. Los jugadores pueden aprender de sus errores y mejorar sus habilidades para superar los desafios en futuros intentos.
+•End: El juego culmina en un emocionante climax o confrontacion final, brindando un sentido de cierre a la historia y una recompensa final al jugador.
+•Why is all this fun: Todos estos elementos se combinan para crear una experiencia de juego envolvente y emocionante. La progresion a traves de niveles, la superacion de obstaculos y la busqueda de objetos brinda un sentimiento de logro y satisfaccion. Los controles receptiovos permiten al jugador sentirse en control y empoderado. Los desafios y la posibilidad de ganar o perder generan emociones y mantienen el juego emocionante. La varaedad de modos y opciones personalizables añade profundidad y repetibilidad. En ultima instancia, la diversion radica en la combinacion de todos estos elementos, creando una experiencia gratificante y adictiva que mantiene a los jugadores comprometidos y entretenidos.
+
 
 ## Section 4 – Game Elements
 1. Environment:
-_descripción del entorno del juego_  
+El juego se desarrolla en la isla Kohana. El entorno abarca playas, bosques, un mundo de hielo y misteriosas cuevas. El jugador explora diferentes dimensiones a medida que avanza en su mision, encontrando paisajes unicos y desafiantes.
 
 2. Personajes:  
    2.1 Personajes Jugadores:
-      - Enumerar y hacer una breve descripción
-      - de los personajes jugadores
-      - del juego  
+      - Go: El protagonista principal, un valiente aventurero. Go es habil en el combate y la exploracion, capaz de enfrentar los peligros que acechan en la Isla. Su objetivo es detener los planes malvados de Umbra y salvar a las criaturas de la Isla.
+      - Issas: El fiel compañero de Go. Issas es astuto y curioso, aportando inteligencia y creatividad al equipo. Su participacion es crucial para resolver acertijos y superar obstaculos.
+       
 
    2.2 Personajes NO Jugadores:
-      - Enumerar y hacer una breve descripción
-      - de los personajes NO jugadores
-      - del juego  
+      - Umbra: El villano principal del juego, un cientifico megalomano convertido en una rata gigante debido a sus propios experimentos. Es el responsable de los problemas en la Isla Kohana y representa una amenaza constante para los jugadores.
+      - Kien y Juso: Los secuaces leales de Umbra, que siguen sus ordenes y defienden sus malevolos planes. Actuan como obstaculo y desafios para los jugadores.
+      - Criaturas de la Isla Kohana: Una variedad de animales que habitan la Isla.  Algunas han sido convertidas en mutuaciones por Umbra, mientras que otras luchan por su supervivencia. Algunas criaturas pueden brindar ayuda o informacion a los jugadores.
 
-3. Armas o elementos colectables:  
-_describir las armas, gemas, monedas, etc. que se pueden recoger/obtener/adquirir/encontrar en cada nivel_  
+3. Armas o elementos colectables: 
+En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejorar su progreso y habilidad.
+       -Frutas: Son de 3 tipos. Estas frutas otorgan puntos de vida adicionales y mejoran las estadisticas de los personajes. 
+       -Poderes: Son 3 tipos de poderes que son importantes para poder continuar en los diferentes niveles.
+ 	   -Copa Transladora: Artefacto que permite a los jugadores ir de un nivel a otro. 
+	   -Copa Transladora Interna: Artefacto que permire a los jugadores ir al nivel Oculto que tiene cada nivel.
+
 
 ## Sección 5 – Game Play I/O Controls & UI Interfaces
 1. Game Play I/O Controls:
-- Teclado  
-  Movimiento del personaje:
-  - Arrow keys <- ->
-  - A and D keys  
-  Special keys:
-  - Space = jump
-  - E = interaction (e.g. open doors)
-  - Esc = pause
-- Control de Xbox  
-  _describir los controles_  
+• Movimientos del Personaje: 
+   -Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones.
+   -Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente.++++++++
+• Acciones Especiales
+   -Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto.
+   - Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente. 
+• Pausa
+   - Tecla Esc: Permite pausar el juego en cualquier momento. Al presionar la tecla Esc, el juego se detendra temporalmente y se mostrara el menu de pausa, donde el jugador puede acceder a opciones adicionales, como reiniciar el nivel o volver al menu principal.
+
+• Elementos de gamificación
 2. GUI Interfaces:
 
 ![alt text][wireframe]  
@@ -165,6 +188,15 @@ _describir las armas, gemas, monedas, etc. que se pueden recoger/obtener/adquiri
        _describir las opciones del menú de opciones_  
 
 ## Sección 6 – Características Visuales y de Audio 
-_describir las características visuales y de sonido del videojuego_
+El videojuego presenta una cuidadosa combinacion de caracteristicas visuales y de sonido que trabajan juntas para sumergir a los jugadores en la emocionante experiencia de la Isla Kohana.
 
+-Caracteristicas Visuales
+     -Estilo Visual 2D: El juego se desarrolla en un entorno visual 2D detallado y colorido. Los fondos y escenarios estan diseñados para reflejar la diversidad de la Isla Kohana, desde paisajes naturales y frios hasta entornos mas oscuros en el laboratorio de Umbra.
+	 -Animaciones Detalladas: Los personajes, tanto los jugadores como los no jugadores, cuentan con animaciones fluidas y detalladas que reflejan sus personalidades y caracteristicas unicas. Los movimientos, saltos y ataques se representan de manera vivida y atractiva.
+	 -Transiciones entre Dimensiones: Cuando se cambia de un nivel a otro se puede distinguir colores y efectos visuales diferentes. Esto ayuda a distinguir claramente entre las distintas dimensiones del juego.
+	 -Diseño de Niveles Tematicos: Cada nivel presenta un diseño visual unico.Desde entornos naturales de la Isla Kohana, un mundo de nubes donde se encuentran plataformasy un mundo de hielo. Hasta las instalaciones sombrias del laboratorio de Umbra, los jugadores disfrutaran de una variedad visual cautivadora.
+-Caracteristicas de Sonido
+     -Efectos de Sonido Detallados: El juego esta acompañado por efectos de sonido.Los efectos de sonido sumergen a los jugadores en el mundo del juego.
+     -Musica Ambiental:Desde melodias relajantes de la Isla Kohana hasta composiciones mas intensas durante los enfrentamientos con el villano final. 
+     -Efectos Especiales: Sonidos especiales acompañan a acciones destacadas, como saltos, cuando se toca la copa transladora y la copa transladora interna. Al igual que la recoleccion de frutas y activacion de poderes especiales.  
 ## TODAS LAS OTRAS SECCIONES QUE PUEDAN SER NECESARIAS
