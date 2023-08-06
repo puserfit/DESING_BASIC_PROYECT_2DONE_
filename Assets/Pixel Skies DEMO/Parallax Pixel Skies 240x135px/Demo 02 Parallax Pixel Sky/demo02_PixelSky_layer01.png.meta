@@ -3,7 +3,7 @@ guid: 168d4c89695ec554d84b438bd781f3a0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,11 +116,4645 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99969b9bb1c311c43a63caf77486a7ce
+      internalID: 43385318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88af12861bb09043ad1c1f491a7aed8
+      internalID: 1318470114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac61fb17dbbc0f140819d09235bf0b0a
+      internalID: -1152197244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda9c9c12498c9b4189a53eccc3d927d
+      internalID: 1495463520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17acb79df14394649a4194625a4bdfb0
+      internalID: 2110357202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c13602b66d4c44d81f2460a69cff97
+      internalID: 729139779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df1f9e38f2f20c439063f819852ff0b
+      internalID: -1812321410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c5b255a9aab24b867fa0e2a635110
+      internalID: -1002410549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc2c18bad0c43647a5e27adddfd5a61
+      internalID: 1890221112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94b95056c6bd4842a0a9344dc0d7bf6
+      internalID: -383457117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc91051c4148c564e927cd4165f5ec0a
+      internalID: -2086833432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ed2953dde4fe34a9e9e2da1a6f4f81
+      internalID: -2123036061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd625ad364b9854f93c22cc99d54276
+      internalID: 523032747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4997aef2dcd3f468711ceb39268d96
+      internalID: -1448532163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefb876e8f9f8404da591abacb1eafb4
+      internalID: -16891441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fab689dad1fac24a815293c768a70d7
+      internalID: -1839803572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5356548c3eae9f45bef9d03339edade
+      internalID: 1219803666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48822e12bb4836488db4be4e43176e7
+      internalID: 1764127874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685bf0142c1d8d4788137f8bdcc3eb6
+      internalID: 1030838386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723b8780bcfcf6b4f9b8118251807214
+      internalID: -124928202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30463cadb0ece1a4db1b9b1a698b960a
+      internalID: 1954463259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0682a260fdae342b7ddd338ca74fe5
+      internalID: 1896853767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139785d565aee24cbfb4c5c0d6f59ef
+      internalID: -449839222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e35ae0ffdf94a043a0371179131596c
+      internalID: -271584283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351469c50207d4349be152d9f59abc0d
+      internalID: 544207413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdfa34241a20b545b9f212e55591c70
+      internalID: -1316464834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9fd9bbc00b1684bb7341d9ed5215e7
+      internalID: -314699141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b3a0b827aafa408b9c1c8b9f9f156
+      internalID: 1261618006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3340a484ee33f46af24e1201f57cd9
+      internalID: -768305116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c276a22b30aad74994756580ee6c368
+      internalID: -2128669134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7894309b7dbdb0649801cb4d87e05a47
+      internalID: -964259991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7edc429b0092340b03bb698d25d592
+      internalID: -573694216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4d95be2c375bf4d8f6f5edd4de254e
+      internalID: -833772330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_33
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842f15ed6e797464a9332c4a6291c79a
+      internalID: -1394009766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a736930a4f8784409f57d6b942f9841
+      internalID: 418527235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b99407e2a4974794061f965eec2f9
+      internalID: 1965248063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad2c89dd8534204ab636b3fa4175e4a
+      internalID: 1475301202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b4e522b0f2ab347a5a030f8e00218f
+      internalID: 91996766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b82e7d06fcf1ab4b85da9c52f67f2ff
+      internalID: 424335640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_39
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66aa59d1fd3cb243a043b15eab07675
+      internalID: -466789398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c701cb501df5c49b677226e76a132b
+      internalID: -554149459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_41
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a7fcdf8d9ff1a45a9ecb3ab5aa5330
+      internalID: 1699750553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec78e5d4ca0989b42b0274fe7dcfac6f
+      internalID: 1840029943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_43
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a5fe7167e48f340a6bde9e145a5bce
+      internalID: 1076239321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668069637963f1049a169da8c7afc175
+      internalID: -911351136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26319148a3b52a94fa3c9ac7703d0d19
+      internalID: -1323187676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab328c38983975c47a0b7195adf0a88a
+      internalID: 962920290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239c92aeb218a9d4d986d56a6f20e01f
+      internalID: -161484666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40da8d65eb9c84585d762e971ef686
+      internalID: -1405573733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_49
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a24cf17171de647b8e1fa10bdffe76
+      internalID: -1178247368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e12db11eaa3344a92ffe60c06ed73
+      internalID: -468237358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a57b3abed80134cbfc7dbdc3faa24d
+      internalID: 1322834453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12738504b0ede4a42a89c6bf2aac2011
+      internalID: 1032226174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b87409c55e95749a5ef93eb99afe3b
+      internalID: 585275912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_54
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd20017fbdbe245bd7ee1f7d080ca0
+      internalID: 1936055258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_55
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3f1fba4af5cb641966ddfadb9325a7
+      internalID: 1788400945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe2a9c6b668e44e976d395aae66b1d
+      internalID: -1003878843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991268361f1683d42b9481e79f03f267
+      internalID: -953988249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_58
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6811bc926e99c4e9597124e7d42de9
+      internalID: -1519225618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_59
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7e36b579174fa4d8c4f1eff27fc3ba
+      internalID: -540639593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dccb851c9e86147bb22f532647aeaa
+      internalID: 1439557120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_61
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9693cc768fc88a47a84b8ae324bbef9
+      internalID: 779114914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_62
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de233b458eeb3544797876e6bff4fb09
+      internalID: -2070213047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_63
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2514388345ad043a4a28d515fa78d2
+      internalID: -1129899256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf713e60da0fadf46b71950e0b6d24ec
+      internalID: -890674897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5cc2f16256df442938d786018eee8c
+      internalID: 138239536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268645a2f7631d34c87f5281bf29073e
+      internalID: -1215720686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0c8e95c9e0be4d9d14f9d4f4d9b2e
+      internalID: 1455312731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ded1fa0b44e6468c0e2b1059c4de4
+      internalID: -582704959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_69
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d99d798764d4ee4885cec90bb2d9f57
+      internalID: -568313341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02560575570fb964fb8a12ee615157f2
+      internalID: 1515796480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cba665d4f513547a9cc66d2349baa9
+      internalID: -1703299012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6963ab66c67aeff449bbdaf145d29682
+      internalID: -1404131822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c659ca37102afea4c82b89b67158fa5c
+      internalID: 1088206278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_74
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3283d544e0aa70442b68b61bedc73b12
+      internalID: 426886277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_75
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b78cefdb7b2fc04194851ea9faa6590
+      internalID: 957362723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089461564689bc74bae6aa52a6f7454e
+      internalID: -1703915303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_77
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17663489b05bedc44952b3378dd61c94
+      internalID: -240874758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557216cc1c5570447a99f5d4ff5c2214
+      internalID: 368720756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70124e1d303161e4ea3d7b8065f3ec5a
+      internalID: 1336769800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62504577e66d2439fd107741c1b7bf
+      internalID: 151782059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_81
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbe7dbb185f3c4c91aee50c977511a
+      internalID: 263527735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_82
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288156257e525a442b067088a7e9f73d
+      internalID: 382863509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73cc90e46424154084a7acdd0b22c66
+      internalID: -804606389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fd58a4891451f44aef75f93dc6f678
+      internalID: 1968431242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_85
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f25a38def70c0446914ccf91df80045
+      internalID: -1318873728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_86
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbefd4f92f7a648409981b849a3c7422
+      internalID: 141070039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_87
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de6032e4ea4df4488a96215b80c1978
+      internalID: -468925705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a219fbee0e7fa48b4917223a48019c
+      internalID: -1837154136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_89
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0671d46e3eb6846858a23295e4f797
+      internalID: -1749572297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae17d4d25bfef4382b630412f6d557
+      internalID: 1729395723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_91
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833dfac95e58aec4185435de6679ce4d
+      internalID: 36887390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86723bc87d8b4db4fa6087b09892c7ca
+      internalID: -1699934075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10240eea5514224d9d241a040d0852c
+      internalID: -2031333643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_94
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffe0613aeeb0704cafbb37bfe3b3ee0
+      internalID: 1986692024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_95
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8089831619a4248a54c1c875d80d15
+      internalID: -1052285432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2b31b32f0aba844950fde548aa7cd2
+      internalID: 1965689345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_97
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d234cd58ce955f409ded1ae0af0e7f4
+      internalID: -1176259012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_98
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693bf7cd0f0534348ba82a14d6c42749
+      internalID: 391278139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_99
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffa50e3b45fc6248b55f90e634174b8
+      internalID: -1450811178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e34984ae4d4a641a51e80161b72ea6
+      internalID: -1923149065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_101
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dad7d7ef3c4c840a1ee88d81e0acba
+      internalID: -519165398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_102
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00c1c872cc270342b013e7c5c08af69
+      internalID: -63513988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_103
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6d2f2039f4ec54abcb9d684295ad82
+      internalID: -853363589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4512eee90f839145927373c27063511
+      internalID: -698555815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_105
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c527118077cbb94bb8407fc416e1da7
+      internalID: -1991943846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec3883c442a16c4a8ad67216444cc01
+      internalID: -144257152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_107
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a34b0f5ce36ae6458f45650eb22685d
+      internalID: 1710000443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fe6e5443416a34697ebddb40f274cc
+      internalID: -1701911435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_109
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7612b807efc1604ca8e799bc771dfe3
+      internalID: 277962961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9b1af71223aef4e982c5fb422c3632
+      internalID: 54939701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_111
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c127f09a76a1740a7484dcf2ff4edf
+      internalID: -1045295168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_112
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc463c884c0129b40847e633f3f96fc6
+      internalID: -1909888544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_113
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d13973f3d495342a4852d70f30bbd4
+      internalID: -884292940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_114
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df93fe2c71544489af280f8fdb495d
+      internalID: -185290018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_115
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf096d0c84ba0b24f94b68ef2cede322
+      internalID: -163692179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fae2e65ca283594992cf145186458a5
+      internalID: 326493386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_117
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e13744d586a374a9fb8d582988d194
+      internalID: -1877388013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b12e5eb0bfdad4794216f67df53b3c
+      internalID: 408732695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 63
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2529fb470081ed4aa784e0fc6a01d8a
+      internalID: -703883446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd07463f9180dc45ac43e8d3ea352ac
+      internalID: 55489413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_121
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0583619a88a909348a4e5fb843adb633
+      internalID: 2117698532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_122
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73dc46a9d8424459f535ea85ad969c
+      internalID: 264810432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_123
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202f814539fa3444b21f74ba72ab12f
+      internalID: -538252290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0eca4fe6462c439717077dd1368cd
+      internalID: 500726836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_125
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8719cf5c82d1842a386397971be3f1
+      internalID: -37913157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_126
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6341c501b26fa4a80d04bbf1e40f58
+      internalID: 1059129510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_127
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacb8772ac0e89f49a35e3e5bc1500e6
+      internalID: 1836481571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82d9cadd9d87b42904f42a87f49298
+      internalID: 348928336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_129
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df79ceff7ce56c4c80027e0e9dbfc87
+      internalID: 1785546675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_130
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5dba64a97391847a4a56ab80230b55
+      internalID: -1711316673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_131
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57d94ceaf4caf42ba50b9b1decff3a
+      internalID: 1214778696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5da936537426d4b88019f0c0a03b76
+      internalID: 1393834986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_133
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3938daaa8bc826f4d8fdb7cf8ff76b32
+      internalID: 1882996558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_134
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceac577d296b5c4bb914d25a14c4621
+      internalID: 328750745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_135
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415d82237d2aa834d939c5ac1427b364
+      internalID: 380138467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506d7b0fadc0fc4fad74cc21d2fe81a
+      internalID: -1942896367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d134a8211ff4244a8628cccff881450
+      internalID: 902736270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_138
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8a8a515fbf41242bafe15df2176626
+      internalID: 1772435556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_139
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26855d831a294c47be8ed35b0528d64
+      internalID: 141992528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b10ac1a0df4c5408f6da48add78324
+      internalID: 2012462957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_141
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88bf28350e93e641957e6b2297dee08
+      internalID: 1676178945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_142
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2ea224ecd42004e80bba997334dd13
+      internalID: -403054169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_143
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c43bfa51a74f54aa9f0cf973caeb9d
+      internalID: -18768577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61046eaeb3130614f80baafbb3866a9c
+      internalID: -1213605587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_145
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356482abf12a2734ab4d91ce37fbb0bb
+      internalID: -90575111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_146
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdd8ccd582eec64fae510c461704079
+      internalID: 172153427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_147
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5696fadff66ca040bb702688e801067
+      internalID: 2145746296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afe5a3dfaf770c469275f494fb1ee7d
+      internalID: 2041508065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_149
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8c4c76eb477c4ea46c881ef78b10a
+      internalID: -1013312338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_150
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a55db4ec22fa74ba13bdfc56d0e041
+      internalID: 704548718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_151
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7610358c4da16684ca3e127bac67aa65
+      internalID: 1703486473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd690e58765267409aaeda4e42ff185
+      internalID: 151702873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_153
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1438be678c2b57343a8ad5c93a49cf08
+      internalID: -704503975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_154
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c296ac6f79324e8f52b8319fe1d71
+      internalID: -666172137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605dffa923f64aa49b5e961f56907887
+      internalID: -1392413036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1daa722a53e8a4e9dfc919539d96ab
+      internalID: 1795287640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_157
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af7e76ba22f215428aa65e32cfc0fd1
+      internalID: -571033156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_158
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a147fdc283831ad4cae4e79907fb3fa0
+      internalID: 1092891142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_159
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975bcb68e71e34343acc9fc200b99bc9
+      internalID: -1086106100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53031ee634258f447bdd089c0924b2e5
+      internalID: 1173698633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_161
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59801653a7f868d468120d996bce71fc
+      internalID: -1001391517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f2263a5d4106468bdf3e416bc2191
+      internalID: 1871137206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_163
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d09d1a0e59c642bcf9bf0e5201f7e
+      internalID: -1593126716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_164
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b53175138dab41af4176d4546d466
+      internalID: -331236670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_165
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf0690312ff7684fa34284f3ad160af
+      internalID: -248185332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_166
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a322c83121c108047875aef9ddb29b36
+      internalID: -1984614170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_167
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826f7133766f00943939045e1cab3f79
+      internalID: -1996762319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eadd3d5737e5842b21ebff416d64de
+      internalID: -1751681837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_169
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8632bc8e3beaa6e439ea5cf1d76f4e1c
+      internalID: -997272127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_170
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ac77dd6a4fe9b4d9f6d827f9113015
+      internalID: 624237720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_171
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721a7c82a3b223438ec1ff2b805c8df
+      internalID: -14335812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_172
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2a2fc896078ae468e658099fd1694c
+      internalID: -2087105220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_173
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff08fe694594c54ca52394515067839
+      internalID: -2121422185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_174
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b0995d05ecdec4a8a0e9c08b8c80e1
+      internalID: 281098939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_175
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29aea4e9fd34e7418c7319142f114bf
+      internalID: -387119719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c116732c8abb429ff87c47bd2ef56
+      internalID: 1126036252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_177
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f86db56e74831440b777ee8fc78f5fe
+      internalID: 73724568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_178
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78008007c1e3e004ca73574c02e8b457
+      internalID: -649361429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_179
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 27
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b12d332a24f6be4a84611759cf40200
+      internalID: -749309800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ab13708bec2aa44b329c44075ea332
+      internalID: -1936324511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_181
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0be835ab269e34f94cb12f175eba47
+      internalID: -1345748634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_182
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844effc11b435204babffd8ed56d4a3c
+      internalID: -1546880309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_183
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd9aca694db3f141abc696ccab1aebb
+      internalID: 1164337440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_184
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2c7371feaece54f8a2708a039e8a02
+      internalID: -840373483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_185
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27f223a388b8e43aef61ab7464f0fc
+      internalID: 96756235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43c461b23e4114288d3db3448a3f0e
+      internalID: 1831629914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_187
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97fc4779ee422244b10ff3c96675363
+      internalID: -656479577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_188
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02111baa8f8baf489de11d81296bc54
+      internalID: -217301390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_189
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88bd15dfac04514b9f909d8032d1006
+      internalID: -714917770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_190
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f1aa3f9787dbf4d97692f5cb9141ae
+      internalID: 799799357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_191
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844beb1e9712cf04a802399026a97431
+      internalID: -592504247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_192
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352429e62f262d34ebfb14a5fe49047b
+      internalID: -1946165028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_193
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fefabea257cce941bc8c5091c88bcee
+      internalID: 1579830571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_194
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfaf4d56a60dd4388da0260114c038
+      internalID: -1215960579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_195
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f3a7c86a4bda74ab4e276436bde0a7
+      internalID: -1532120910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad3bbdf06ace8747958ea35d3aaabd9
+      internalID: -594631859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_197
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a875d441f142c43ba7a9e486c21ad6
+      internalID: -858081110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_198
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8ad97153e46344eaeca1f73e80deac
+      internalID: 1928307645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_199
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c48988e402b1c94c8a8264c60b4538b
+      internalID: 1039744176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32dbfb52a0b4ec4394298601ec9d6aa
+      internalID: 1308558365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_201
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b576d898d4274498dd8e6742ea6697
+      internalID: -589518152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_202
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e00fee60ce3df4a843413cfdcf4906
+      internalID: -999985129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_203
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d3594e3e16654c87de726d5e54e26
+      internalID: -1272542465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_204
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caa08c421d147a49938a2a9ecbc19ae
+      internalID: -2120309543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_205
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6dfe675496922418ca6cd828cd03bd
+      internalID: 698321695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_206
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3148f895dd11ffb49a71b25079ab01c6
+      internalID: -504423528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_207
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a7e5b372804b448727224631b6df4
+      internalID: -1002366985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_208
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0a203b6e9f57545a5f58f0d4b2f3fc
+      internalID: 276211569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_209
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a3b820e33b78b488a804b243c37020
+      internalID: 2036562395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_210
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202b3d53684a6de489e211e47fe2ca38
+      internalID: -1648913133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_211
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ff5f8f1392ae4b929093591420ea4
+      internalID: 1022804057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_212
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b632250b1509014cab50633893183b3
+      internalID: 951197544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_213
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaaf1593119a1c42af0f494334640c1
+      internalID: 715186235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_214
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1684bb29abb0459c2e475c3bd1194
+      internalID: -1075077706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_215
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9c94de0d2d1440a57666b108a0fdb
+      internalID: 606647465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_216
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d835777987a3a54181971b8c962611f
+      internalID: 339049635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_217
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ec5c234cb0805488b46b51492f0cea
+      internalID: -1381126280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_218
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5fc447837b9b5489f8524c82228058
+      internalID: -1457949093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo02_PixelSky_layer01_219
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f762d8f6f7297147b222473d2265cae
+      internalID: 616763028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -125,10 +4765,229 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    nameFileIdTable:
+      demo02_PixelSky_layer01_0: 43385318
+      demo02_PixelSky_layer01_1: 1318470114
+      demo02_PixelSky_layer01_10: -2086833432
+      demo02_PixelSky_layer01_100: -1923149065
+      demo02_PixelSky_layer01_101: -519165398
+      demo02_PixelSky_layer01_102: -63513988
+      demo02_PixelSky_layer01_103: -853363589
+      demo02_PixelSky_layer01_104: -698555815
+      demo02_PixelSky_layer01_105: -1991943846
+      demo02_PixelSky_layer01_106: -144257152
+      demo02_PixelSky_layer01_107: 1710000443
+      demo02_PixelSky_layer01_108: -1701911435
+      demo02_PixelSky_layer01_109: 277962961
+      demo02_PixelSky_layer01_11: -2123036061
+      demo02_PixelSky_layer01_110: 54939701
+      demo02_PixelSky_layer01_111: -1045295168
+      demo02_PixelSky_layer01_112: -1909888544
+      demo02_PixelSky_layer01_113: -884292940
+      demo02_PixelSky_layer01_114: -185290018
+      demo02_PixelSky_layer01_115: -163692179
+      demo02_PixelSky_layer01_116: 326493386
+      demo02_PixelSky_layer01_117: -1877388013
+      demo02_PixelSky_layer01_118: 408732695
+      demo02_PixelSky_layer01_119: -703883446
+      demo02_PixelSky_layer01_12: 523032747
+      demo02_PixelSky_layer01_120: 55489413
+      demo02_PixelSky_layer01_121: 2117698532
+      demo02_PixelSky_layer01_122: 264810432
+      demo02_PixelSky_layer01_123: -538252290
+      demo02_PixelSky_layer01_124: 500726836
+      demo02_PixelSky_layer01_125: -37913157
+      demo02_PixelSky_layer01_126: 1059129510
+      demo02_PixelSky_layer01_127: 1836481571
+      demo02_PixelSky_layer01_128: 348928336
+      demo02_PixelSky_layer01_129: 1785546675
+      demo02_PixelSky_layer01_13: -1448532163
+      demo02_PixelSky_layer01_130: -1711316673
+      demo02_PixelSky_layer01_131: 1214778696
+      demo02_PixelSky_layer01_132: 1393834986
+      demo02_PixelSky_layer01_133: 1882996558
+      demo02_PixelSky_layer01_134: 328750745
+      demo02_PixelSky_layer01_135: 380138467
+      demo02_PixelSky_layer01_136: -1942896367
+      demo02_PixelSky_layer01_137: 902736270
+      demo02_PixelSky_layer01_138: 1772435556
+      demo02_PixelSky_layer01_139: 141992528
+      demo02_PixelSky_layer01_14: -16891441
+      demo02_PixelSky_layer01_140: 2012462957
+      demo02_PixelSky_layer01_141: 1676178945
+      demo02_PixelSky_layer01_142: -403054169
+      demo02_PixelSky_layer01_143: -18768577
+      demo02_PixelSky_layer01_144: -1213605587
+      demo02_PixelSky_layer01_145: -90575111
+      demo02_PixelSky_layer01_146: 172153427
+      demo02_PixelSky_layer01_147: 2145746296
+      demo02_PixelSky_layer01_148: 2041508065
+      demo02_PixelSky_layer01_149: -1013312338
+      demo02_PixelSky_layer01_15: -1839803572
+      demo02_PixelSky_layer01_150: 704548718
+      demo02_PixelSky_layer01_151: 1703486473
+      demo02_PixelSky_layer01_152: 151702873
+      demo02_PixelSky_layer01_153: -704503975
+      demo02_PixelSky_layer01_154: -666172137
+      demo02_PixelSky_layer01_155: -1392413036
+      demo02_PixelSky_layer01_156: 1795287640
+      demo02_PixelSky_layer01_157: -571033156
+      demo02_PixelSky_layer01_158: 1092891142
+      demo02_PixelSky_layer01_159: -1086106100
+      demo02_PixelSky_layer01_16: 1219803666
+      demo02_PixelSky_layer01_160: 1173698633
+      demo02_PixelSky_layer01_161: -1001391517
+      demo02_PixelSky_layer01_162: 1871137206
+      demo02_PixelSky_layer01_163: -1593126716
+      demo02_PixelSky_layer01_164: -331236670
+      demo02_PixelSky_layer01_165: -248185332
+      demo02_PixelSky_layer01_166: -1984614170
+      demo02_PixelSky_layer01_167: -1996762319
+      demo02_PixelSky_layer01_168: -1751681837
+      demo02_PixelSky_layer01_169: -997272127
+      demo02_PixelSky_layer01_17: 1764127874
+      demo02_PixelSky_layer01_170: 624237720
+      demo02_PixelSky_layer01_171: -14335812
+      demo02_PixelSky_layer01_172: -2087105220
+      demo02_PixelSky_layer01_173: -2121422185
+      demo02_PixelSky_layer01_174: 281098939
+      demo02_PixelSky_layer01_175: -387119719
+      demo02_PixelSky_layer01_176: 1126036252
+      demo02_PixelSky_layer01_177: 73724568
+      demo02_PixelSky_layer01_178: -649361429
+      demo02_PixelSky_layer01_179: -749309800
+      demo02_PixelSky_layer01_18: 1030838386
+      demo02_PixelSky_layer01_180: -1936324511
+      demo02_PixelSky_layer01_181: -1345748634
+      demo02_PixelSky_layer01_182: -1546880309
+      demo02_PixelSky_layer01_183: 1164337440
+      demo02_PixelSky_layer01_184: -840373483
+      demo02_PixelSky_layer01_185: 96756235
+      demo02_PixelSky_layer01_186: 1831629914
+      demo02_PixelSky_layer01_187: -656479577
+      demo02_PixelSky_layer01_188: -217301390
+      demo02_PixelSky_layer01_189: -714917770
+      demo02_PixelSky_layer01_19: -124928202
+      demo02_PixelSky_layer01_190: 799799357
+      demo02_PixelSky_layer01_191: -592504247
+      demo02_PixelSky_layer01_192: -1946165028
+      demo02_PixelSky_layer01_193: 1579830571
+      demo02_PixelSky_layer01_194: -1215960579
+      demo02_PixelSky_layer01_195: -1532120910
+      demo02_PixelSky_layer01_196: -594631859
+      demo02_PixelSky_layer01_197: -858081110
+      demo02_PixelSky_layer01_198: 1928307645
+      demo02_PixelSky_layer01_199: 1039744176
+      demo02_PixelSky_layer01_2: -1152197244
+      demo02_PixelSky_layer01_20: 1954463259
+      demo02_PixelSky_layer01_200: 1308558365
+      demo02_PixelSky_layer01_201: -589518152
+      demo02_PixelSky_layer01_202: -999985129
+      demo02_PixelSky_layer01_203: -1272542465
+      demo02_PixelSky_layer01_204: -2120309543
+      demo02_PixelSky_layer01_205: 698321695
+      demo02_PixelSky_layer01_206: -504423528
+      demo02_PixelSky_layer01_207: -1002366985
+      demo02_PixelSky_layer01_208: 276211569
+      demo02_PixelSky_layer01_209: 2036562395
+      demo02_PixelSky_layer01_21: 1896853767
+      demo02_PixelSky_layer01_210: -1648913133
+      demo02_PixelSky_layer01_211: 1022804057
+      demo02_PixelSky_layer01_212: 951197544
+      demo02_PixelSky_layer01_213: 715186235
+      demo02_PixelSky_layer01_214: -1075077706
+      demo02_PixelSky_layer01_215: 606647465
+      demo02_PixelSky_layer01_216: 339049635
+      demo02_PixelSky_layer01_217: -1381126280
+      demo02_PixelSky_layer01_218: -1457949093
+      demo02_PixelSky_layer01_219: 616763028
+      demo02_PixelSky_layer01_22: -449839222
+      demo02_PixelSky_layer01_23: -271584283
+      demo02_PixelSky_layer01_24: 544207413
+      demo02_PixelSky_layer01_25: -1316464834
+      demo02_PixelSky_layer01_26: -314699141
+      demo02_PixelSky_layer01_27: 1261618006
+      demo02_PixelSky_layer01_28: -768305116
+      demo02_PixelSky_layer01_29: -2128669134
+      demo02_PixelSky_layer01_3: 1495463520
+      demo02_PixelSky_layer01_30: -964259991
+      demo02_PixelSky_layer01_31: -573694216
+      demo02_PixelSky_layer01_32: -833772330
+      demo02_PixelSky_layer01_33: -1394009766
+      demo02_PixelSky_layer01_34: 418527235
+      demo02_PixelSky_layer01_35: 1965248063
+      demo02_PixelSky_layer01_36: 1475301202
+      demo02_PixelSky_layer01_37: 91996766
+      demo02_PixelSky_layer01_38: 424335640
+      demo02_PixelSky_layer01_39: -466789398
+      demo02_PixelSky_layer01_4: 2110357202
+      demo02_PixelSky_layer01_40: -554149459
+      demo02_PixelSky_layer01_41: 1699750553
+      demo02_PixelSky_layer01_42: 1840029943
+      demo02_PixelSky_layer01_43: 1076239321
+      demo02_PixelSky_layer01_44: -911351136
+      demo02_PixelSky_layer01_45: -1323187676
+      demo02_PixelSky_layer01_46: 962920290
+      demo02_PixelSky_layer01_47: -161484666
+      demo02_PixelSky_layer01_48: -1405573733
+      demo02_PixelSky_layer01_49: -1178247368
+      demo02_PixelSky_layer01_5: 729139779
+      demo02_PixelSky_layer01_50: -468237358
+      demo02_PixelSky_layer01_51: 1322834453
+      demo02_PixelSky_layer01_52: 1032226174
+      demo02_PixelSky_layer01_53: 585275912
+      demo02_PixelSky_layer01_54: 1936055258
+      demo02_PixelSky_layer01_55: 1788400945
+      demo02_PixelSky_layer01_56: -1003878843
+      demo02_PixelSky_layer01_57: -953988249
+      demo02_PixelSky_layer01_58: -1519225618
+      demo02_PixelSky_layer01_59: -540639593
+      demo02_PixelSky_layer01_6: -1812321410
+      demo02_PixelSky_layer01_60: 1439557120
+      demo02_PixelSky_layer01_61: 779114914
+      demo02_PixelSky_layer01_62: -2070213047
+      demo02_PixelSky_layer01_63: -1129899256
+      demo02_PixelSky_layer01_64: -890674897
+      demo02_PixelSky_layer01_65: 138239536
+      demo02_PixelSky_layer01_66: -1215720686
+      demo02_PixelSky_layer01_67: 1455312731
+      demo02_PixelSky_layer01_68: -582704959
+      demo02_PixelSky_layer01_69: -568313341
+      demo02_PixelSky_layer01_7: -1002410549
+      demo02_PixelSky_layer01_70: 1515796480
+      demo02_PixelSky_layer01_71: -1703299012
+      demo02_PixelSky_layer01_72: -1404131822
+      demo02_PixelSky_layer01_73: 1088206278
+      demo02_PixelSky_layer01_74: 426886277
+      demo02_PixelSky_layer01_75: 957362723
+      demo02_PixelSky_layer01_76: -1703915303
+      demo02_PixelSky_layer01_77: -240874758
+      demo02_PixelSky_layer01_78: 368720756
+      demo02_PixelSky_layer01_79: 1336769800
+      demo02_PixelSky_layer01_8: 1890221112
+      demo02_PixelSky_layer01_80: 151782059
+      demo02_PixelSky_layer01_81: 263527735
+      demo02_PixelSky_layer01_82: 382863509
+      demo02_PixelSky_layer01_83: -804606389
+      demo02_PixelSky_layer01_84: 1968431242
+      demo02_PixelSky_layer01_85: -1318873728
+      demo02_PixelSky_layer01_86: 141070039
+      demo02_PixelSky_layer01_87: -468925705
+      demo02_PixelSky_layer01_88: -1837154136
+      demo02_PixelSky_layer01_89: -1749572297
+      demo02_PixelSky_layer01_9: -383457117
+      demo02_PixelSky_layer01_90: 1729395723
+      demo02_PixelSky_layer01_91: 36887390
+      demo02_PixelSky_layer01_92: -1699934075
+      demo02_PixelSky_layer01_93: -2031333643
+      demo02_PixelSky_layer01_94: 1986692024
+      demo02_PixelSky_layer01_95: -1052285432
+      demo02_PixelSky_layer01_96: 1965689345
+      demo02_PixelSky_layer01_97: -1176259012
+      demo02_PixelSky_layer01_98: 391278139
+      demo02_PixelSky_layer01_99: -1450811178
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
