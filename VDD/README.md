@@ -93,42 +93,42 @@ El jugador ganará al completar todos los 3 niveles + los niveles ocultos en cad
 
 Objetivo
 
-..* Recolectar Fruta y Poderes Ocultos:El jugador debe recolectar frutas y poderes ocultos en cada nivel. Estos elementos pueden otorgar beneficios como puntos, habilidades especiales o mejoras del personaje. La recoleccion de estos elementos puede ser necesaria para avanzar en el juego y superar ciertos obstaculos.
-..* Descubir Niveles Ocultos: Los niveles ocultos ofrecen una experiencia adicional y desafiante para el jugador. El objetivo aqui es encontrar estos niveles secretos, recolectando paneles solares. Estos paneles pueden tener un proposito especial en la mecanica del juego o en la historia.
-..* Enfentar al Villano Final: El tercer nivel presenta el enfrentamiento con el villano. Aqui, el jugador debe utilizar las habilidades y poderes que ha recolectado para derrotar al villano y completar el juego.Este enfrentamiento puede incluir mecanicas de combare unicas y ser un desafio emocionantes.
-..* Ganar el Juego: Derrotar al villano final y completar el juego con exito.Al hacerlo, el jugador alcanza el logro maximo y puede experimentar la satisfaccion de haber superado todos los desafios y obstaculos del juego.
+* Recolectar Fruta y Poderes Ocultos:El jugador debe recolectar frutas y poderes ocultos en cada nivel. Estos elementos pueden otorgar beneficios como puntos, habilidades especiales o mejoras del personaje. La recoleccion de estos elementos puede ser necesaria para avanzar en el juego y superar ciertos obstaculos.
+* Descubir Niveles Ocultos: Los niveles ocultos ofrecen una experiencia adicional y desafiante para el jugador. El objetivo aqui es encontrar estos niveles secretos, recolectando paneles solares. Estos paneles pueden tener un proposito especial en la mecanica del juego o en la historia.
+* Enfentar al Villano Final: El tercer nivel presenta el enfrentamiento con el villano. Aqui, el jugador debe utilizar las habilidades y poderes que ha recolectado para derrotar al villano y completar el juego.Este enfrentamiento puede incluir mecanicas de combare unicas y ser un desafio emocionantes.
+* Ganar el Juego: Derrotar al villano final y completar el juego con exito.Al hacerlo, el jugador alcanza el logro maximo y puede experimentar la satisfaccion de haber superado todos los desafios y obstaculos del juego.
 
 2. Reglas del juego:
-..* Movimiento de Personaje: El personaje puede moverse hacia la izquierda y la derecha utilizando las teclas correspondientes. Puede salta usando la tecla space y el personaje no puede moverse fuera de los limites del nivel.
-..* Recoleccion de Objetos: El personaje puede recolectar frutas y poderes ocultos al tocarlos. Recolectar frutas otorga puntos al jugador. Recolectar poderes ocultos puede otorgar habilidades especiales temporales.
-..* Niveles Ocultos: Los niveles ocultos solo se puede estar si el jugador toca la copa azul la cual translada al personaje al nivel oculto.En los niveles ocultos el personaje puede recolectar paneles solares.
-..* Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
+* Movimiento de Personaje: El personaje puede moverse hacia la izquierda y la derecha utilizando las teclas correspondientes. Puede salta usando la tecla space y el personaje no puede moverse fuera de los limites del nivel.
+* Recoleccion de Objetos: El personaje puede recolectar frutas y poderes ocultos al tocarlos. Recolectar frutas otorga puntos al jugador. Recolectar poderes ocultos puede otorgar habilidades especiales temporales.
+* Niveles Ocultos: Los niveles ocultos solo se puede estar si el jugador toca la copa azul la cual translada al personaje al nivel oculto.En los niveles ocultos el personaje puede recolectar paneles solares.
+* Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
 
 3. Mecánica del juego:
-..* Movimientos del personaje: 
+   _Movimientos del personaje:_ 
     _Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos._
 	_Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas._ 
 	_Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos._
 	_Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales._
-..* Movimientos de los enemigos:
+   _Movimientos de los enemigos:_
     _Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos._
     _Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas._ 
-..* Obstáculos y trampas:
-    _Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas._
-	_Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos._
+   _Obstáculos y trampas:_
+  _Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas._
+  _Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos._
 	_Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño._
 	_Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura._
 	_Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles._
 	_Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas._ 
 	
 4. Completar con varios o todos de los siguientes (a necesidad)
-..* Game Options: El juego ofrece varias opciones para personalizar la experiencia, como ajustes de volumen de sonido, configuracion de controles y preferencias visuales.
-..* Game Levels: El juego esta estructurado en niveles progresivos, cada uno con su propio conjunto de desafios, obstaculos y objetivos. A medida que el jugador avanza, los niveles se vuelven mas dificiles y gratificantes.
-..* Player's Controls: Los controles intuitivos y responsivos permiten a los jugadores moverse, saltar y realizar acciones especiales con facilidad, lo que les brinda un mayor sentido de control sobre el personaje.
-..* Winning: Los jugadores experimentan una sensacion de logro y satisfacion al superar obstaculos, completar niveles y alacanzar objetivos. Las recompensas visuales y auditivas refuerzan la sensacion de victoria.
-..* Losing: La posibilidad de perder y enfrentar desafios dificiles agrega emocion y tension al juego. Los jugadores pueden aprender de sus errores y mejorar sus habilidades para superar los desafios en futuros intentos.
-..* End: El juego culmina en un emocionante climax o confrontacion final, brindando un sentido de cierre a la historia y una recompensa final al jugador.
-..* Why is all this fun: Todos estos elementos se combinan para crear una experiencia de juego envolvente y emocionante. La progresion a traves de niveles, la superacion de obstaculos y la busqueda de objetos brinda un sentimiento de logro y satisfaccion. Los controles receptiovos permiten al jugador sentirse en control y empoderado. Los desafios y la posibilidad de ganar o perder generan emociones y mantienen el juego emocionante. La varaedad de modos y opciones personalizables añade profundidad y repetibilidad. En ultima instancia, la diversion radica en la combinacion de todos estos elementos, creando una experiencia gratificante y adictiva que mantiene a los jugadores comprometidos y entretenidos.
+* Game Options: El juego ofrece varias opciones para personalizar la experiencia, como ajustes de volumen de sonido, configuracion de controles y preferencias visuales.
+* Game Levels: El juego esta estructurado en niveles progresivos, cada uno con su propio conjunto de desafios, obstaculos y objetivos. A medida que el jugador avanza, los niveles se vuelven mas dificiles y gratificantes.
+* Player's Controls: Los controles intuitivos y responsivos permiten a los jugadores moverse, saltar y realizar acciones especiales con facilidad, lo que les brinda un mayor sentido de control sobre el personaje.
+* Winning: Los jugadores experimentan una sensacion de logro y satisfacion al superar obstaculos, completar niveles y alacanzar objetivos. Las recompensas visuales y auditivas refuerzan la sensacion de victoria.
+* Losing: La posibilidad de perder y enfrentar desafios dificiles agrega emocion y tension al juego. Los jugadores pueden aprender de sus errores y mejorar sus habilidades para superar los desafios en futuros intentos.
+* End: El juego culmina en un emocionante climax o confrontacion final, brindando un sentido de cierre a la historia y una recompensa final al jugador.
+* Why is all this fun: Todos estos elementos se combinan para crear una experiencia de juego envolvente y emocionante. La progresion a traves de niveles, la superacion de obstaculos y la busqueda de objetos brinda un sentimiento de logro y satisfaccion. Los controles receptiovos permiten al jugador sentirse en control y empoderado. Los desafios y la posibilidad de ganar o perder generan emociones y mantienen el juego emocionante. La varaedad de modos y opciones personalizables añade profundidad y repetibilidad. En ultima instancia, la diversion radica en la combinacion de todos estos elementos, creando una experiencia gratificante y adictiva que mantiene a los jugadores comprometidos y entretenidos.
 
 
 ## Section 4 – Game Elements
@@ -158,7 +158,7 @@ En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejor
 1. Game Play I/O Controls:
    _Movimientos del Personaje:_ 
     _Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones._
-    _Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente.++++++++_
+    _Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente._
    _Acciones Especiales_
     _Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto._
     _Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente._ 
