@@ -105,21 +105,24 @@ Objetivo
 * Enemigos y Peligros: El personaje puede perder vidas si entra en contacto con un enemigo o cae en una trampa. Al perder todas las vidas el personaje reinicia desde un ´punto de control o desde el inicio del nivel.
 
 3. Mecánica del juego:
-   _Movimientos del personaje:_ 
-    _Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos._
-	_Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas._ 
-	_Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos._
-	_Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales._
-   _Movimientos de los enemigos:_
-    _Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos._
-    _Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas._ 
-   _Obstáculos y trampas:_
-  _Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas._
-  _Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos._
-	_Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño._
-	_Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura._
-	_Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles._
-	_Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas._ 
+
+* Movimientos del personaje: 
+1. Movimiento Lateral: El personaje puede moverse a la izquierda y derecha utilizando las teclas correspondientes. Este movimiento permite navegar por el nivel y evitar obstaculos.
+2. Salto: El personaje puede saltar para superar abismos, enemigos y obstaculos. Un doble salto esta disponible, lo que permite al jugador realizar un segundo salto en el aire para alcanzar areas mas altas.
+3. Escalada: El personaje puede escalar paredes verticales, permitiendole alcanzar areas inaccesibles y sortear obstaculos._
+4. Recoleccion de Objetos: Al tocar frutas, poderes y paneles solares, el personaje los recolecta y gana puntos. Los poderes pueden proporcionar habilidades especiales temporales.
+
+* Movimientos de los enemigos:
+1. Movimientos Horizontales:Los enemigos, controlador por Uma, se mueven de un lado a otro en zonas especificas del nivel. Algunos enemigos pueden tener patrones de movimiento predecibles, mientras que otros pueden ser mas erraticos.
+2. Ataques: Algunos enemigos pueden realizar ataques simples, como embestiar al personaje. El jugador debe esquivar estos ataques para evitar perder vidas.
+
+* Obstáculos y trampas:
+1. Trampas de Fuego: Estas trampas generan llamas que dañan al personaje al contacto. El jugador debe evitarlas para no perder vidas.
+2. Picos Puntiagudos: Los picos en el suelo inflingen daño al personaje al tocarlos. El jugador debe saltar o escalar para evitarlos.
+3. Sierras: Las sierras de mueven en un patron establecido, creando una zona peligrosa. El jugador debe calcular su movimiento para atravesarlas sin daño.
+4. Plataformas Moviles: En el segundo y tercer nivel, hay plataformas moviles que se desplazan horizontalmente o verticalmente. El jugador debe sincronizar sus saltos y movimientos para usarlas de manera segura.
+5. Trampolines: Presentes en el tercer nivel, los trampolines lanzan al personaje a grandes alturas o distancias, permitiendo alcanzar areas inaccesibles.
+6. Plataformas Estaticas: Ofrecen un impulso adicional al saltar sobre ellas. 
 	
 4. Completar con varios o todos de los siguientes (a necesidad)
 * Game Options: El juego ofrece varias opciones para personalizar la experiencia, como ajustes de volumen de sonido, configuracion de controles y preferencias visuales.
@@ -156,16 +159,16 @@ En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejor
 
 ## Sección 5 – Game Play I/O Controls & UI Interfaces
 1. Game Play I/O Controls:
-   _Movimientos del Personaje:_ 
-    _Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones._
-    _Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente._
-   _Acciones Especiales_
-    _Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto._
-    _Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente._ 
-   _Pausa_
-    _Tecla Esc: Permite pausar el juego en cualquier momento. Al presionar la tecla Esc, el juego se detendra temporalmente y se mostrara el menu de pausa, donde el jugador puede acceder a opciones adicionales, como reiniciar el nivel o volver al menu principal._
+* Movimientos del Personaje:
+1. Teclas de flecha izquierda (←) y derecha (→) para mover al personaje en las respectivas direcciones.
+2. Teclas A y D tambien se pueden utilizar para mover al personaje hacia la izqueirda y la dercha, respectivamente.
+* Acciones Especiales
+1. Tecla Espacio: Permite al personaje realizar un salto. Presionar la tecla Espacio una vez hara que el personaje realice un salto. En algunos casos, como cuando se salta cerca de una pared, esta accion puede resultar en un salto adicional, como un doble salto.
+2. Tecla E: Utilizada para intereactuar con elementos del entorno, como objetos interactivos. Al presionar la tecla E cerca de un objeto interactivo, el personaje llevara a cabo la accion correcpondiente. 
+* Pausa
+1. Tecla Esc: Permite pausar el juego en cualquier momento. Al presionar la tecla Esc, el juego se detendra temporalmente y se mostrara el menu de pausa, donde el jugador puede acceder a opciones adicionales, como reiniciar el nivel o volver al menu principal.
 
-   _Elementos de gamificación_
+* Elementos de gamificación
    
 2. GUI Interfaces:
 
@@ -194,12 +197,13 @@ En cada nivel, los jugadores pueden recoger diversos objetos valiosos para mejor
 ## Sección 6 – Características Visuales y de Audio 
 El videojuego presenta una cuidadosa combinacion de caracteristicas visuales y de sonido que trabajan juntas para sumergir a los jugadores en la emocionante experiencia de la Isla Kohana.
 
-   _Caracteristicas Visuales_
-    _Estilo Visual 2D: El juego se desarrolla en un entorno visual 2D detallado y colorido. Los fondos y escenarios estan diseñados para reflejar la diversidad de la Isla Kohana, desde paisajes naturales y frios hasta entornos mas oscuros en el laboratorio de Umbra._
-    _Animaciones Detalladas: Los personajes, tanto los jugadores como los no jugadores, cuentan con animaciones fluidas y detalladas que reflejan sus personalidades y caracteristicas unicas. Los movimientos, saltos y ataques se representan de manera vivida y atractiva._
-    _Transiciones entre Dimensiones: Cuando se cambia de un nivel a otro se puede distinguir colores y efectos visuales diferentes. Esto ayuda a distinguir claramente entre las distintas dimensiones del juego._
-    _Diseño de Niveles Tematicos: Cada nivel presenta un diseño visual unico.Desde entornos naturales de la Isla Kohana, un mundo de nubes donde se encuentran plataformasy un mundo de hielo. Hasta las instalaciones sombrias del laboratorio de Umbra, los jugadores disfrutaran de una variedad visual cautivadora._
-   _Caracteristicas de Sonido_
-    _Efectos de Sonido Detallados: El juego esta acompañado por efectos de sonido.Los efectos de sonido sumergen a los jugadores en el mundo del juego._
-    _Musica Ambiental:Desde melodias relajantes de la Isla Kohana hasta composiciones mas intensas durante los enfrentamientos con el villano final._ 
-    _Efectos Especiales: Sonidos especiales acompañan a acciones destacadas, como saltos, cuando se toca la copa transladora y la copa transladora interna. Al igual que la recoleccion de frutas y activacion de poderes especiales._  
+* Caracteristicas Visuales
+1. Estilo Visual 2D: El juego se desarrolla en un entorno visual 2D detallado y colorido. Los fondos y escenarios estan diseñados para reflejar la diversidad de la Isla Kohana, desde paisajes naturales y frios hasta entornos mas oscuros en el laboratorio de Umbra._
+2. Animaciones Detalladas: Los personajes, tanto los jugadores como los no jugadores, cuentan con animaciones fluidas y detalladas que reflejan sus personalidades y caracteristicas unicas. Los movimientos, saltos y ataques se representan de manera vivida y atractiva._
+3. Transiciones entre Dimensiones: Cuando se cambia de un nivel a otro se puede distinguir colores y efectos visuales diferentes. Esto ayuda a distinguir claramente entre las distintas dimensiones del juego._
+4. Diseño de Niveles Tematicos: Cada nivel presenta un diseño visual unico.Desde entornos naturales de la Isla Kohana, un mundo de nubes donde se encuentran plataformasy un mundo de hielo. Hasta las instalaciones sombrias del laboratorio de Umbra, los jugadores disfrutaran de una variedad visual cautivadora._
+
+* Caracteristicas de Sonido
+1. Efectos de Sonido Detallados: El juego esta acompañado por efectos de sonido.Los efectos de sonido sumergen a los jugadores en el mundo del juego._
+2. Musica Ambiental:Desde melodias relajantes de la Isla Kohana hasta composiciones mas intensas durante los enfrentamientos con el villano final._ 
+3. Efectos Especiales: Sonidos especiales acompañan a acciones destacadas, como saltos, cuando se toca la copa transladora y la copa transladora interna. Al igual que la recoleccion de frutas y activacion de poderes especiales._  
