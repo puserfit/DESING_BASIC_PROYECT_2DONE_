@@ -13,16 +13,17 @@ public class CharacterController : MonoBehaviour
 	float limiteR = 11.68f;    //Este valor representa el limite Derecho de la camara para el personaje
 	float limiteL = -9.07f;    //Este valor representa el limite Izquierdo de la camara para el personaje    nivel 2:-9f /  185.04f
 	float velocidad = 4f;    //Velocidad de desplazamiento del personaje  4f
-	float fuerzaSalto = 110;     //x veces la masa del personaje (2 codigo) //la fuerzaSalto es 50 su propio peso (el peso del personaje)  95
+	float fuerzaSalto = 60;     //x veces la masa del personaje (2 codigo) //la fuerzaSalto es 50 su propio peso (el peso del personaje)  95  70  60
 	
 	float fuerzaDesplazamiento = 300;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)
 	
 	bool enElPiso = true;     //tiene que tocar el piso 
 	
+	
 	//Sonidos
-	[SerializeField] private AudioSource salto_SFX;        //Sonido Salto
-	
-	
+	[SerializeField] private AudioSource salto_SFX;        //Sonido Salto    
+	                                                       //Asigna valores a campos directamente desde el Editor de Unity
+	                                                       //Los campos provados de una clase se vuelve accesibles desde el inspector de UnityEngine
     void Start()
     {
         //Personaje siempre inicia en la posicion (x -8.92--abajo,y -0.57---arriba)         
@@ -55,10 +56,13 @@ public class CharacterController : MonoBehaviour
 			gameObject.transform.Translate(-velocidad*Time.deltaTime, 0, 0);
 		}
 		
+		
+		//SALTO
 		if(Input.GetKeyDown("space") && enElPiso){
             Debug.Log("UP - enElPiso: " + enElPiso);
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -fuerzaSalto*Physics2D.gravity[1]*gameObject.GetComponent<Rigidbody2D>().mass));
-            enElPiso = false;
+            salto_SFX.Play();                              //Le esta diciendo que cuando salte REPRODUSCA ESE SONIDO
+			enElPiso = false;
         }
 	}
 	
