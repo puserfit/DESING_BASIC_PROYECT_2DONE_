@@ -17,7 +17,7 @@ public class CharacterController : MonoBehaviour
 	
 	float fuerzaDesplazamiento = 300;   //Fuerza en Newton que va a tener el personaje ...es grande por que tiene rozamiento (drag)  300   500
 	
-	bool enElPiso = true;     //tiene que tocar el piso 
+	bool enElPiso = false;     //tiene que tocar el piso 
 	
 	
 	//Sonidos
