@@ -48,14 +48,21 @@ public class CharacterController : MonoBehaviour
 		if(Input.GetKey("right")&& enElPiso){
 			Debug.Log("RIGHT"); 
 			gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(fuerzaDesplazamiento,0));
+			gameObject.GetComponent<Animator>().SetBool("running", true);                             //bandera para run
 			
 		}
 		
 		else if(Input.GetKey("left")&& gameObject.transform.position.x > limiteL){
 			Debug.Log("LEFT");
 			gameObject.transform.Translate(-velocidad*Time.deltaTime, 0, 0);
+			gameObject.GetComponent<Animator>().SetBool("running", true);                              //bandera para run
 		}
 		
+		//Condicional para pasar del estado "Idle" a "Run"
+		if( !(Input.GetKey("right")|| Input.GetKey("left"))){
+			gameObject.GetComponent<Animator>().SetBool("running", false);
+			
+		}
 		
 		//SALTO
 		if(Input.GetKeyDown("space") && enElPiso){
